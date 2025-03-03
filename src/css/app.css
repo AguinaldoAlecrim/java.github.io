@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(155, 155, 158);
+    padding-top: var(--navbar-height);
+}
+.m9tHBYjU {
+    max-width: 576px;
+    max-height: 1024px;
+    min-width: 300px; 
+    min-height: 600px;
+}
+.dKaMJWba {
+    background-color: azure;
+    padding: 2px 3px;
+    text-indent: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;    
+    font-size: 1.2em;
+}
+
+.wzE2MkgS {
+    background-color: #fafcb9;
+    padding: 2px 3px;
+    text-indent: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;    
+    font-size: 1.2em;
+}
