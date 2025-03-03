@@ -1,5 +1,10 @@
 # Decrição
 
-Está página destina-se à apresentação dos tutoriais de acesso à sala de audiência virtual da 3ª Vara de Família de Londrina - PR.
-Trata-se de um HTML estático para auxílio daqueles que precisam participar de audiência de instrução e julgamento (ou outras) designada por aquele Juízo.
+Está página destina-se à apresentação dos tutoriais de acesso à sala de audiência virtual.
+Trata-se de um HTML estático para auxílio daqueles que precisam participar de audiência de instrução e julgamento (ou outras) designada.
 
+# Gravação do vídeo
+
+```bash
+scrcpy --tcpip -M -s 2b34194cae1d7ece --window-borderless --record nomeDoArquivo.mp4 --max-size=1024 --max-fps=20 --no-audio
+```
