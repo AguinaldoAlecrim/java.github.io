@@ -32,5 +32,11 @@ html {
 }
 
 section {
-    scroll-margin-top: 180px;   
+    scroll-margin-top: 180px; 
+    user-select: none;  
+}
+
+.menu-link:hover{
+    background-color: var(--bs-orange);
+    border-radius: 5px;
 }
