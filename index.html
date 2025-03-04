@@ -121,7 +121,7 @@
                 <div class="col">
                     <div class="wzE2MkgS">
                         <p class="text-justify">
-                            Caso o usuário encontre alguma dificuldade de acesso ao link da audiência, poderá fazer contato telefônico pelo número (43) 3572-3503(<a href="https://web.whatsapp.com/?phone=554335723503" target="_blank">WhatsApp</a>)
+                            Caso o usuário encontre alguma dificuldade de acesso ao link da audiência, poderá fazer contato telefônico pelo número (43) 3572-3503(<a href="https://web.whatsapp.com/?phone=554335723503" id="linkWhatsapp" target="_blank">WhatsApp</a>)
                         </p>                    
                     </div>
                 </div>
@@ -144,6 +144,17 @@
                     }
                 });
             });
+
+
+            const link = document.querySelector('#linkWhatsapp');
+            const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+            // Altera o href conforme o dispositivo
+            if (isMobile) {
+                link.href = "https://wa.me/554335723503";
+            } else {
+                link.href = "https://web.whatsapp.com/?phone=554335723503";
+            }
         });
     </script>
 </body>
