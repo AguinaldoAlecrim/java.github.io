@@ -1,12 +1,15 @@
 body {
-    background-color: rgb(155, 155, 158);
+    background-color: var(--bs-body-color);
     padding-top: var(--navbar-height);
 }
+html {
+    scroll-behavior: smooth;
+  }
 .m9tHBYjU {
     max-width: 576px;
     max-height: 1024px;
-    min-width: 300px; 
-    min-height: 600px;
+    min-width: 334px; 
+    min-height: 600px;    
 }
 .dKaMJWba {
     background-color: azure;
@@ -19,7 +22,7 @@ body {
 }
 
 .wzE2MkgS {
-    background-color: #fafcb9;
+    background-color: #f0ffff;
     padding: 2px 3px;
     text-indent: 10px;
     border-radius: 5px;
